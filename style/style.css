@@ -1,0 +1,132 @@
+@import url(fonts.css);
+.container {
+    padding: 88px 131px 0 131px;
+}
+.col-4{
+    width: 33.33333%;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    position: relative;
+    width: 380px;
+    height: 456px;
+    background: #F3F3F3;
+}
+.svg {
+    position: absolute;
+    top: 36px;
+    right: 32px;
+}
+.cat_title {
+    padding: 0 29px 0 29px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+
+}
+.cat_desc {
+
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 29px 0 29px;
+    margin-left: 20px;
+
+}
+.cat_character {
+    display: block;
+    line-height: 1px;
+    margin-top: -21px;
+}
+.cat_month {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.cat_desc_in {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-top: -1px;
+}
+.cat_month {
+    margin-bottom: -2px;
+}
+.cat_btn {
+    width: 380px;
+    height: 65px;
+    left: 131px;
+    top: 544px;
+
+    background: #6EBBD3;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.footer {
+    margin-top: 95px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+
+    color: #000000;
+}
+.footer_end {
+    margin-top: -15px;
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+.sell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 78px;
+    height: 39px;
+    position: absolute;
+    top: 34px;
+    left: 37px;
+    background: #E62D2D;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+.regtangle {
+    position: absolute;
+    background: #6EBBD3;
+    width: 4px;
+    height: 26px;
+    left: 29px;
+    bottom: 93px;
+}
+.btn2 {
+    width: 380px;
+    height: 65px;
+    left: 131px;
+    top: 544px;
+    background: #1F2021;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #FFFFFF;
+}
